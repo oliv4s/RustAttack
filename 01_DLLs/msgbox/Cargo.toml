@@ -1,0 +1,11 @@
+[package]
+name = "msgbox_dll"
+version = "0.1.0"
+edition = "2018"
+author = "oliv4s"
+
+[dependencies]
+winapi = { version = "0.3.9", features = ["minwindef","winuser"] }
+
+[lib]
+crate-type = ["cdylib"]
