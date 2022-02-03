@@ -13,6 +13,7 @@ The entire project has been developed and compiled on a Linux machine.
     * [DLLs](#dlls)
       - [MsgBox](#msgbox)
       - [Code Execution](#code-execution)
+      - [Shellcode - CreateRemoteThread method](#shellcode---createremotethread-method-no-av-detection-defender---03022022)
       - [Shellcode - CreateThread method](#shellcode---createthread-method-no-av-detection-defender---02022022)
     * [Executables ToDo](#executables)
   * [Other Rust Projects](#other-rust-projects)
