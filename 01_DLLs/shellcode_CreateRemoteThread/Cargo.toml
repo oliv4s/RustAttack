@@ -6,7 +6,8 @@ author = "oliv4s"
 
 [dependencies]
 kernel32-sys = "0.2.2"
-winapi = {version = "0.3.9", features = ["winnt","processthreadsapi","memoryapi","handleapi"] }
+winapi = {version = "0.3.9", features = ["winnt","processthreadsapi","memoryapi","handleapi", "tlhelp32", "winbase"] }
+sysinfo = "0.22.0"
 
 [lib]
 crate-type = ["cdylib"]
