@@ -16,6 +16,7 @@ The entire project has been developed and compiled on a Linux machine.
       - [Shellcode - CreateRemoteThread method](#shellcode---createremotethread-method-no-av-detection-defender---07022022)
       - [Shellcode - CreateThread method](#shellcode---createthread-method-no-av-detection-defender---07022022)
     * [Executables ToDo](#executables)
+  * [To-Do](#to-do)
   * [Other Rust Projects](#other-rust-projects)
 
 ## Examples
@@ -154,6 +155,13 @@ let shellcode:[u8;276] = [0xfc, 0x48, ... <blablabla>];
 **NOTE**: you must specify shellcode length.
 
 ### Executables
+
+## To-DO
+- AMSI Bypass
+- ETW Bypass
+- ETW Patch
+- OpSec
+- Hell'sGate Rust Implementation
 
 ## Other Rust Projects
 
